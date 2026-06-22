@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class CallingBala {
+public class Calling {
 	
 	AndroidDriver driver;
     WebDriverWait wait;
@@ -51,7 +51,7 @@ public class CallingBala {
 
     @Test
     public void addNum() throws Exception {
-        click(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"B​a​l​a​m​u​r​u​g​a​n​K​i​o​t\"]"));
+        click(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"J​a​g​g​u​F​r​n​d\"]"));
         Thread.sleep(5);
         String res = getText(AppiumBy.xpath("//android.widget.TextView[@text=\"Video call\"]"));
         Assert.assertEquals(res,"Video call");
